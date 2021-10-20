@@ -77,6 +77,8 @@ class UserController extends Controller
 
         $user = $this->userService->createNewUser($dataUser);
 
+        $dataUser['id'] = isset($user['id']) ? $user['id'] : null;
+
         $response = array("user"=>$dataUser, "message"=>$user['message']);
 
         return response()->json($response, $user['code']);

@@ -68,7 +68,7 @@ class UserService
     {
         try {
 
-            $user = DB::table('users')->insert($dataUser);
+            $user = DB::table('users')->insertGetId($dataUser);
 
             if ($user === null) {
 
@@ -80,6 +80,7 @@ class UserService
 
                 return [
                     'message'=>'Usuário cadastrado com sucesso.',
+                    'id'=> $user,
                     'code'=>200
                 ];
             }
