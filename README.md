@@ -148,10 +148,10 @@ Use o token JWT para consumir as seguintes rotas privadas:
 
 Caso deseje, poderá utilizar as seguintes configurações de banco de dados no arquivo .env:
 
-DB_HOST=db
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=laraveluser
-DB_PASSWORD=laravel
+DB_HOST=db<br>
+DB_PORT=3306<br>
+DB_DATABASE=laravel<br>
+DB_USERNAME=laraveluser<br>
+DB_PASSWORD=laravel<br>
 
 ----------
