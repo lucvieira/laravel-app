@@ -8,6 +8,7 @@ API Laravel usando Docker Container para CRUD de usuario.
 
 <ol>
     <li>Instale o Docker pelo site https://www.docker.com/</li>
+    <li>Faça o clone do repositório e entre na pasta criada.</li>
     <li>Duplique o arquivo <code>.env.example</code> para o arquivo <code>.env</code> e coloque as configurações do banco de dados.</li>
     <li>Para instalar as dependências necessárias execute, dentro da pasta do projeto, o comando:<br> <code>docker run --rm -v $(pwd):/app composer install</code>      </li>
     <li>Inicie os containers com o seguinte comando: <code>docker-compose up -d --force-recreate --build</code></li>
