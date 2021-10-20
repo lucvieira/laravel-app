@@ -87,4 +87,4 @@ Use o token JWT para consumir as seguintes rotas privadas:
     </tbody>
 </table>
 
-<b>Token JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVjYXMgVmllaXJhIiwiaWQiOjk5OTk5OTk5fQ.7SbefdpndI6DgJz-vun2vw5nSUCYhpdyoTA7xgHdunE</b>
+<b>Token JWT: <code>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVjYXMgVmllaXJhIiwiaWQiOjk5OTk5OTk5fQ.7SbefdpndI6DgJz-vun2vw5nSUCYhpdyoTA7xgHdunE</code></b>
