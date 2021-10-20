@@ -141,3 +141,17 @@ Use o token JWT para consumir as seguintes rotas privadas:
 </table>
 
 <b>Token JWT: <code>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVjYXMgVmllaXJhIiwiaWQiOjk5OTk5OTk5fQ.7SbefdpndI6DgJz-vun2vw5nSUCYhpdyoTA7xgHdunE</code></b>
+
+----------
+
+# Banco de Dados
+
+Caso deseje, poderá utilizar as seguintes configurações de banco de dados no arquivo .env:
+
+DB_HOST=db
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=laraveluser
+DB_PASSWORD=laravel
+
+----------
